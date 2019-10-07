@@ -1,0 +1,11 @@
+<h1>
+  test2b component!
+</h1>
+<p>
+  ID is {{ id }}
+</p>
+<a routerLink="/test2">Go to test2</a>
+<br><br>
+<a routerLink="/test2" [queryParams]="{ page: 99 }">Go to test2 with query param via directive</a>
+<br><br>
+<button (click)="goToPage(100)" type="button">Go to test2 with query param programmatically</button>
